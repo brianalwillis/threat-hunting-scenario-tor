@@ -64,7 +64,7 @@ Remove `tor-shopping-list.txt` to simulate cleanup activity.
 
 ---
 
-## RELATED QUERIES
+## QUERIES USED
 ```kql
 DeviceFileEvents
 | where FileName  contains "tor"
