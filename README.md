@@ -253,7 +253,7 @@ In response, the device was immediately isolated from the network to prevent fur
 
 *This project documents a simulated detection and investigation of TOR browser activity using Microsoft Defender for Endpoint telemetry. It showcases how to trace file, process, and network events related to the installation and use of TOR within an enterprise environment.*
 
-**Created by:** `Briana Willis`  
+**Created By:** `Briana Willis`  
 **Date:** `2025-07-05`  
 **Time:** `14:32 UTC`
 
