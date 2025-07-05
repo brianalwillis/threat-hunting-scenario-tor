@@ -1,25 +1,53 @@
-# Official [Cyber Range](http://joshmadakor.tech/cyber-range) Project
+# 🕵️‍♀️ THREAT HUNT REPORT: UNAUTHORIZED TOR USAGE
 
 <img width="400" src="https://github.com/user-attachments/assets/44bac428-01bb-4fe9-9d85-96cba7698bee" alt="Tor Logo with the onion and a crosshair on it"/>
 
-# Threat Hunt Report: Unauthorized TOR Usage
-- [Scenario Creation](https://github.com/joshmadakor0/threat-hunting-scenario-tor/blob/main/threat-hunting-scenario-tor-event-creation.md)
+### [SCENARIO CREATION](https://github.com/joshmadakor0/threat-hunting-scenario-tor/blob/main/threat-hunting-scenario-tor-event-creation.md)
 
-## Platforms and Languages Leveraged
-- Windows 10 Virtual Machines (Microsoft Azure)
-- EDR Platform: Microsoft Defender for Endpoint
-- Kusto Query Language (KQL)
-- Tor Browser
+---
 
-##  Scenario
+## 👩‍💻 ENVIRONMENT & TOOLS UTILIZED
 
-Management suspects that some employees may be using TOR browsers to bypass network security controls because recent network logs show unusual encrypted traffic patterns and connections to known TOR entry nodes. Additionally, there have been anonymous reports of employees discussing ways to access restricted sites during work hours. The goal is to detect any TOR usage and analyze related security incidents to mitigate potential risks. If any use of TOR is found, notify management.
+- **Virtual Machines:**  
+  Windows 10 VMs hosted on Microsoft Azure
 
-### High-Level TOR-Related IoC Discovery Plan
+- **Endpoint Detection & Response (EDR):**  
+  Microsoft Defender for Endpoint
 
-- **Check `DeviceFileEvents`** for any `tor(.exe)` or `firefox(.exe)` file events.
-- **Check `DeviceProcessEvents`** for any signs of installation or usage.
-- **Check `DeviceNetworkEvents`** for any signs of outgoing connections over known TOR ports.
+- **Query Language:**  
+  Kusto Query Language (KQL) – Used for querying telemetry data in Defender and Azure environments
+
+- **Privacy Browser:**  
+  Tor Browser – Used for anonymized browsing and testing network detection rules
+
+
+---
+
+##  SCENARIO OVERVIEW
+
+Management has raised concerns about potential TOR browser usage within the organization after recent network logs revealed unusual encrypted traffic patterns and connections to known TOR entry nodes. Compounding these concerns, anonymous reports have surfaced indicating that employees may be discussing ways to access restricted websites during work hours.
+
+## OBJECTIVE
+
+Detect any unauthorized installation or use of the TOR browser on corporate workstations. Identify related security incidents, assess the scope of activity, and evaluate potential risks to the organization’s network and data security. If any TOR usage is detected, promptly report findings to management for further action.
+
+## HIGH-LEVEL TOR-RELATED IOC DISCOVERY PLAN
+
+### File Activity Analysis — DeviceFileEvents
+
+- Search for file events involving tor.exe, firefox.exe, or other executables commonly associated with the TOR browser.
+- Focus on unusual file creation, modification, or execution patterns that may indicate installation or launch activity.
+
+### Process Activity Monitoring — DeviceProcessEvents
+
+- Identify processes related to TOR browser installation or execution.
+- Look for command-line arguments, parent-child process relationships, and unusual process trees involving TOR-related binaries.
+
+### Network Traffic Analysis — DeviceNetworkEvents
+
+- Detect outbound connections to known TOR entry or relay nodes.
+- Monitor traffic over common TOR ports (e.g., 9001, 9030, 9050, 9051, 9150).
+- Analyze encrypted traffic anomalies that may indicate TOR usage.
 
 ---
 
