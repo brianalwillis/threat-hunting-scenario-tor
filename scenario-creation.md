@@ -4,7 +4,7 @@
 
 ---
 
-## STEPS THE "BAD ACTOR" TOOK TO CREATE LOGS AND IOCs:
+## STEPS THE "BAD ACTOR" TOOK TO CREATE LOGS AND IOCs
 
 ### Step 1: **Download the TOR Browser Installer** 
 [https://www.torproject.org/download/](https://www.torproject.org/download/)
