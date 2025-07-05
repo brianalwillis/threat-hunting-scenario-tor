@@ -65,6 +65,7 @@ DeviceFileEvents
 ```
 
 **Results:**
+
 ![TOR 1](https://github.com/user-attachments/assets/6d5173bf-b273-411e-814a-db5ad65f2366)
 
 ---
@@ -83,6 +84,7 @@ DeviceFileEvents
 ```
 
 **Results:**
+
 ![TOR 2](https://github.com/user-attachments/assets/3bb21c90-c2a5-4d02-b1f2-159ed3e045f6)
 
 ---
@@ -103,6 +105,7 @@ DeviceFileEvents
 ```
 
 **Results:**
+
 ![TOR 3](https://github.com/user-attachments/assets/3be9cbae-e31e-4c1e-b2dd-9af58961f294)
 
 ---
@@ -120,6 +123,7 @@ DeviceProcessEvents
 ```
 
 **Results:**
+
 ![TOR 4](https://github.com/user-attachments/assets/6be620e5-16ea-409d-a6f0-6dc3a0747a2d)
 
 This result shows that the user `bwillis` executed the TOR browser installer on `July 4, 2025`, using the silent install flag `/S`, which allows the installation to proceed without any user interface or prompts. This indicates a deliberate attempt to install TOR quietly, potentially to avoid detection. This is a strong indicator of intentional and unauthorized TOR browser deployment on a corporate device.
@@ -140,6 +144,7 @@ DeviceFileEvents
 ```
 
 **Results:**
+
 ![TOR 5](https://github.com/user-attachments/assets/1528ea8e-004c-45b8-99af-19083c561c01)
 
 Both `tor.exe` and `firefox.exe` were created on the system shortly after the TOR installer (`tor-browser-windows-x86_64-portable-14.5.4.exe`) was executed using the `/S` flag.
@@ -163,6 +168,7 @@ DeviceNetworkEvents
 ```
 
 **Results:**
+
 ![TOR 6](https://github.com/user-attachments/assets/a527ed7a-bb6d-45a9-9df5-89de9e5e82e7)
 
 The results show that on `July 4, 2025` the user `bwillis`’ device `willis-threat-h` initiated multiple network connections via `tor.exe` to several external IP addresses on known TOR relay ports such as `9001` and `9030`. Additionally, `firefox.exe` connected locally to `127.0.0.1` on port `9150`, which is the standard SOCKS proxy port used by TOR. These connections indicate that the TOR browser was actively running and routing traffic through the TOR network, confirming the user’s actual use of TOR for internet browsing.
@@ -182,6 +188,7 @@ DeviceFileEvents
 ```
 
 **Results:**
+
 ![TOR 7](https://github.com/user-attachments/assets/c9ddc3bf-e5b4-43c7-9b6e-411a9d8823af)
 
 ---
