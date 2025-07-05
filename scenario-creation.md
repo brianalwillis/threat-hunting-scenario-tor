@@ -123,14 +123,14 @@ DeviceFileEvents
 ---
 
 ## CREATED BY
-**Author**: `Briana Willis`
-**Contact**: [`https://www.linkedin.com/in/brianalwillis/`](https://www.linkedin.com/in/brianalwillis/)
-**Date**: `2025-07-05`
+-**Author**: `Briana Willis`
+-**Contact**: [`https://www.linkedin.com/in/brianalwillis/`](https://www.linkedin.com/in/brianalwillis/)
+-**Date**: `2025-07-05`
 
 ## VALIDATED BY
-**Reviewer Name**: 
-**Reviewer Contact**: 
-**Validation Date**: 
+-**Reviewer Name**: 
+-**Reviewer Contact**: 
+-**Validation Date**: 
 
 ---
 
