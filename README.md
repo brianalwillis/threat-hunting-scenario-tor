@@ -21,7 +21,7 @@
 
 ---
 
-### [SCENARIO CREATION](https://github.com/joshmadakor0/threat-hunting-scenario-tor/blob/main/threat-hunting-scenario-tor-event-creation.md)
+### [SCENARIO CREATION](https://github.com/brianalwillis/threat-hunting-scenario-tor/blob/main/scenario-creation)
 
 ##  SCENARIO OVERVIEW
 
