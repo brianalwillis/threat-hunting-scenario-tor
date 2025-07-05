@@ -43,16 +43,6 @@ Remove `tor-shopping-list.txt` to simulate cleanup activity.
 
 ---
 
-| **Table Name**           | **Description**                                                                                                                                     |
-|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| **DeviceFileEvents**     | [Documentation](https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-devicefileevents-table)  
-Used to detect TOR browser downloads, installation artifacts, and the creation/deletion of files like `tor-shopping-list.txt`. |
-| **DeviceProcessEvents**  | [Documentation](https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-deviceprocessevents-table)  
-Used to detect silent TOR installation and the execution of `tor.exe` and related processes. |
-| **DeviceNetworkEvents**  | [Documentation](https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-devicenetworkevents-table)  
-Used to detect TOR network activity, including connections from `tor.exe` or `firefox.exe` to known TOR ports (9001, 9030, 9040, 9050, 9051, 9150). |
-
-
 ## TABLES USED TO DETECT IOCS
 | **Parameter**       | **Description**                                                                                                                |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------|
@@ -66,7 +56,7 @@ Used to detect TOR network activity, including connections from `tor.exe` or `fi
 | **Info**            | https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-deviceinfo-table             |
 | **Purpose**         | Used to detect silent TOR installation and the execution of `tor.exe` and related processes. |
  
-| **Table**           | **Description**                                                                                                                                    |
+| **Parameter**       | **Description**                                                                                                                                    |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Name**            | `DeviceNetworkEvents`                                                                                                                              |
 | **Info**            | https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-devicenetworkevents-table                                                          |
@@ -134,7 +124,7 @@ DeviceFileEvents
 
 ## CREATED BY
 - **Author Name**: `Briana Willis`
-- **Author Contact**: `https://www.linkedin.com/in/brianalwillis/`
+- **Author Contact**: [`https://www.linkedin.com/in/brianalwillis/`](https://www.linkedin.com/in/brianalwillis/)
 - **Date**: `2025-07-05`
 
 ## VALIDATED BY
@@ -144,12 +134,7 @@ DeviceFileEvents
 
 ---
 
-## ADDITIONAL NOTES
-- **None**
-
----
-
 ## REVISION HISTORY
-| **Version** | **Changes**                   | **Date**              | **Modified By**   |
-|-------------|-------------------------------|-----------------------|-------------------|
-| 1.0         | Initial draft                 | `2025-07-05`  | `Briana Willis`   
+| **Version** | **Changes**                   | **Date**     | **Modified By**   |
+|-------------|-------------------------------|--------------|-------------------|
+| 1.0         | Initial draft                 | `2025-07-05` | `Briana Willis`   
