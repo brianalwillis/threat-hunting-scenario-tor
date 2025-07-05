@@ -232,14 +232,21 @@ DeviceFileEvents
 
 ---
 
-## Summary
+## SUMMARY
 
-The user "employee" on the "threat-hunt-lab" device initiated and completed the installation of the TOR browser. They proceeded to launch the browser, establish connections within the TOR network, and created various files related to TOR on their desktop, including a file named `tor-shopping-list.txt`. This sequence of activities indicates that the user actively installed, configured, and used the TOR browser, likely for anonymous browsing purposes, with possible documentation in the form of the "shopping list" file.
+The investigation into suspicious activity on the device `willis-threat-h` revealed that the user `bwillis` silently installed the TOR browser using a portable installer with a silent execution flag, indicating intent to bypass detection. Subsequent file and process activity confirmed the creation of key TOR components, including `tor.exe` and `firefox.exe`, followed by network connections to known TOR relay nodes over ports `9001` and `9030`. Notably, `firefox.exe` was observed communicating with `127.0.0.1:9150`, confirming active TOR browser usage. The user also created and later deleted a file named `tor-shopping-list.txt`, suggesting an attempt to hide related activity. This timeline of events confirms unauthorized TOR use, likely to circumvent security controls and access restricted content, warranting escalation and further action.
+
+---
+
+## RESPONSE TAKEN
+
+In response, the device was immediately isolated from the network to prevent further unauthorized activity or data exfiltration. A full forensic capture was initiated, and all findings were documented. During the investigation, we were able to recover the contents of a deleted Notepad file, which contained several illicit items. The user’s direct manager was notified of the incident, and the case was escalated to HR and Information Security for further review and disciplinary consideration.
 
 ---
 
-## Response Taken
+*This project documents a simulated detection and investigation of TOR browser activity using Microsoft Defender for Endpoint telemetry. It showcases how to trace file, process, and network events related to the installation and use of TOR within an enterprise environment.*
 
-TOR usage was confirmed on the endpoint `threat-hunt-lab` by the user `employee`. The device was isolated, and the user's direct manager was notified.
+**Created by:** `Briana Willis`  
+**Date:** `2025-07-05`  
+**Time:** `14:32 UTC`
 
----
