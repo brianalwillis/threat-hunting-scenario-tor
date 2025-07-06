@@ -35,7 +35,7 @@ Detect any unauthorized installation or use of the TOR browser on corporate work
 
 ### File Activity Analysis — `DeviceFileEvents`
 
-- Search for file events involving tor.exe, firefox.exe, or other executables commonly associated with the TOR browser.
+- Search for file events involving `tor.exe`, `firefox.exe`, or other executables commonly associated with the TOR browser.
 - Focus on unusual file creation, modification, or execution patterns that may indicate installation or launch activity.
 
 ### Process Activity Monitoring — `DeviceProcessEvents`
