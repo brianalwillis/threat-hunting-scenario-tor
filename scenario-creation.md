@@ -33,7 +33,7 @@ Open the TOR browser from the folder located on the desktop.
 ---
 
 ### Step 5: **Create a Suspicious File**
-Open Notepad and a few fake, illicit items to simulate suspicious behavior.
+Open Notepad and add a few fake, illicit items to simulate suspicious behavior.
 `tor-shopping-list.txt`
 
 ---
