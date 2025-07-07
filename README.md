@@ -1,6 +1,10 @@
 # 🕵️‍♀️ THREAT HUNT REPORT: UNAUTHORIZED TOR USAGE
 
-<img width="500" src="https://github.com/user-attachments/assets/44bac428-01bb-4fe9-9d85-96cba7698bee" alt="Tor Logo with the onion and a crosshair on it"/>
+<img width="500" src="https://github.com/user-attachments/assets/44bac428-01bb-4fe9-9d85-96cba7698bee" alt="Tor Logo with the onion and a crosshair on it"/></br>
+
+## 🧅 "WHAT IS TOR?"
+
+Tor stands for `The Onion Router`. The Tor Browser is a privacy-focused web browser that allows users to access the internet anonymously by routing traffic through a network of volunteer-operated servers. Using the Tor Browser at work can signal a serious breach of trust and policy, even if the intent isn't malicious. It compromises visibility, security, and accountability—three pillars of enterprise IT management.
 
 ---
 
