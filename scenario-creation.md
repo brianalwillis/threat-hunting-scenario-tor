@@ -33,13 +33,13 @@ Open the TOR browser from the folder located on the desktop.
 ---
 
 ### Step 5: **Create a Suspicious File**
-Add a few fake, illicit items to simulate suspicious behavior.
+Open Notepad and a few fake, illicit items to simulate suspicious behavior.
 `tor-shopping-list.txt`
 
 ---
 
 ### Step 6: **Delete the File**
-Remove `tor-shopping-list.txt` to simulate cleanup activity.
+Delete `tor-shopping-list.txt` to simulate cleanup activity.
 
 ---
 
