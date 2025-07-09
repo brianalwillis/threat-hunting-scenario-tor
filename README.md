@@ -1,6 +1,9 @@
-# 🕵️‍♀️ THREAT HUNT REPORT: UNAUTHORIZED TOR USAGE
+<h1 = align=center>THREAT HUNT REPORT</h1>
+<h2 = align=center>UNAUTHORIZED TOR USAGE</h2>
 
+<p align="center">
 <img width="500" src="https://github.com/user-attachments/assets/44bac428-01bb-4fe9-9d85-96cba7698bee" alt="Tor Logo with the onion and a crosshair on it"/></br>
+</p>
 
 ## 🧅 "WHAT IS TOR?"
 
