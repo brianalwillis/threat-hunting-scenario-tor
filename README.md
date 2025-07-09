@@ -13,18 +13,17 @@ Tor stands for `The Onion Router`. The Tor Browser is a privacy-focused web brow
 
 ## 🛠️ TECH & TOOLS UTILIZED
 
-- **Virtual Machines:**  
-  Windows 10 VMs hosted on Microsoft Azure
+- **Microsoft Azure:**  
+  Windows 10 virtual machines were hosted on Azure for the simulation environment.
 
-- **Endpoint Detection & Response (EDR):**  
-  Microsoft Defender for Endpoint
+- **Microsoft Defender for Endpoint:**  
+  Used as the primary Endpoint Detection & Response (EDR) solution to monitor and protect system activity.
 
-- **Query Language:**  
-  Kusto Query Language (KQL) – Used for querying telemetry data in Defender and Azure environments
+- **Kusto Query Language (KQL):**  
+  Used to query telemetry data from Microsoft Defender and Azure services.
 
-- **Privacy Browser:**  
-  Tor Browser – Used for anonymized browsing and testing network detection rules
-
+- **Tor Browser:**  
+  Utilized for anonymized browsing and to test detection rules related to privacy-focused network traffic.
 
 ---
 
