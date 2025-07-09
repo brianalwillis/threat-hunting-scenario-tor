@@ -11,7 +11,7 @@ Tor stands for `The Onion Router`. The Tor Browser is a privacy-focused web brow
 
 ---
 
-## 👩‍💻 ENVIRONMENT & TOOLS UTILIZED
+## 🛠️ TECH & TOOLS UTILIZED
 
 - **Virtual Machines:**  
   Windows 10 VMs hosted on Microsoft Azure
