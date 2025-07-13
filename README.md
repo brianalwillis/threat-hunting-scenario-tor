@@ -5,13 +5,13 @@
 <img width="500" src="https://github.com/user-attachments/assets/44bac428-01bb-4fe9-9d85-96cba7698bee" alt="Tor Logo with the onion and a crosshair on it"/></br>
 </p>
 
-## 🧅 "WHAT IS TOR?"
+## 🧅 "What is Tor?"
 
 Tor stands for `The Onion Router`. The Tor Browser is a privacy-focused web browser that allows users to access the internet anonymously by routing traffic through a network of volunteer-operated servers. Using the Tor Browser at work can signal a serious breach of trust and policy, even if the intent isn't malicious. It compromises visibility, security, and accountability—three pillars of enterprise IT management.
 
 ---
 
-## 🛠️ TECH & TOOLS UTILIZED
+## 🛠️ Technology & Tools Utilized
 
 - `Microsoft Azure:`</br>
 Windows 10 virtual machines were hosted on Azure for the simulation environment.
@@ -29,11 +29,11 @@ Utilized for anonymized browsing and to test detection rules related to privacy-
 
 ## [SCENARIO CREATION](https://github.com/brianalwillis/threat-hunting-scenario-tor/blob/main/scenario-creation)
 
-##  SCENARIO OVERVIEW
+##  Scenario Overview
 
 Management has raised concerns about potential TOR browser usage within the organization after recent network logs revealed unusual encrypted traffic patterns and connections to known TOR entry nodes. Compounding these concerns, anonymous reports have surfaced indicating that employees may be discussing ways to access restricted websites during work hours.
 
-## OBJECTIVE
+## Objective
 
 Detect any unauthorized installation or use of the TOR browser on corporate workstations. Identify related security incidents, assess the scope of activity, and evaluate potential risks to the organization’s network and data security. If any TOR usage is detected, promptly report findings to management for further action.
 
