@@ -48,7 +48,7 @@ Delete `tor-shopping-list.txt` to simulate cleanup activity.
 | **Parameter**       | **Description**                                                                                                                |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | **Table**           | `DeviceFileEvents`                                                                                                             |
-| **Info**            | `https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-deviceinfo-table`                                             |
+| **Info**            | https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-deviceinfo-table                                               |
 | **Purpose**         | Used to detect TOR browser downloads, installation artifacts, and the creation/deletion of files like `tor-shopping-list.txt`. |
 
 | **Parameter**       | **Description**                                                                              |
