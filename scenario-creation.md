@@ -46,19 +46,19 @@ Delete `tor-shopping-list.txt` to simulate cleanup activity.
 
 ## TABLES USED TO DETECT IOCS
 | **Parameter**       | **Description**                                                                                                                |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------|
+|:--------------------|:--------------------------------------------------------------------------------------------------------------------------------|
 | **Table**           | `DeviceFileEvents`                                                                                                             |
 | **Info**            | [`https://learn.microsoft.com`](https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-deviceinfo-table)              |
 | **Purpose**         | Used to detect TOR browser downloads, installation artifacts, and the creation/deletion of files like `tor-shopping-list.txt`. |
 
 | **Parameter**       | **Description**                                                                                                   |
-|---------------------|-------------------------------------------------------------------------------------------------------------------|
+|:--------------------|:-------------------------------------------------------------------------------------------------------------------|
 | **Table**           | `DeviceProcessEvents`                                                                                             |
 | **Info**            | [`https://learn.microsoft.com`](https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-deviceinfo-table) |
 | **Purpose**         | Used to detect silent TOR installation and the execution of `tor.exe` and related processes.                      |
  
 | **Parameter**       | **Description**                                                                                                                                    |
-|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|:--------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Name**            | `DeviceNetworkEvents`                                                                                                                              |
 | **Info**            | [`https://learn.microsoft.com`](https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-devicenetworkevents-table)                         |
 | **Purpose**         | Used to detect TOR network activity, including connections from `tor.exe` or `firefox.exe` to known TOR ports (9001, 9030, 9040, 9050, 9051, 9150).|
